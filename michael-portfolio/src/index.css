@@ -1,0 +1,44 @@
+:root {
+  --background-color: #0D1117;
+  --neon-accent-color: #39FF14;
+  --primary-text-color: #E5E5E5;
+  --secondary-text-color: #AAAAAA;
+
+  --font-main: 'Poppins', sans-serif;
+  --font-headings: 'Orbitron', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  outline: 1px solid red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headings);
+  color: var(--neon-accent-color);
+}
+
+a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--neon-accent-color);
+}
+
+ul {
+  list-style: none;
+}
