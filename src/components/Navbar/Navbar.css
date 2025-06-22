@@ -89,6 +89,27 @@
     font-size: 2rem;
   }
 
+  .mobile-cv-button {
+    font-family: var(--font-headings);
+    background-color: transparent;
+    border: 2px solid var(--neon-accent-color);
+    color: var(--neon-accent-color);
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px var(--neon-accent-color), 0 0 10px var(--neon-accent-color) inset;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .mobile-cv-button:hover {
+    background-color: var(--neon-accent-color);
+    color: var(--background-color);
+    box-shadow: 0 0 10px var(--neon-accent-color), 0 0 20px var(--neon-accent-color), 0 0 30px var(--neon-accent-color);
+  }
+
   .navbar-cv-button {
     display: none;
   }

@@ -52,6 +52,7 @@ const Navbar = () => {
         <li><a href="#about" onClick={closeMenu}>About</a></li>
         <li><a href="#services" onClick={closeMenu}>Services</a></li>
         <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
+        <li><a href={michaelResume} className="mobile-cv-button" download onClick={closeMenu}>Download CV</a></li>
       </ul>
       <a href={michaelResume} className="navbar-cv-button" download>Download CV</a>
     </nav>
